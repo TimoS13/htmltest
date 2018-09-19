@@ -9,5 +9,44 @@ div#wrapper{
     padding:20px ;
 }
 body {
+    font-family: "Arial", "sans-serif";
+}
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+}
+section.appel,section.visuals{
+    width: 50%;
+    float:left;
+}
+
+section.visuals{
+    text-align:right;
+
+}
+
+section.artikelen{
+
+}
+img.appel{
+    width: 491px;
+}
+img.visuals{
+    width: 453px;
+    margin-bottom:10px;
+}
+
+article{
+    display:inline-block;
+    width: 33%;
+    padding-right: 10px;
+}
+
+article:last-child{
+    padding-right: 0px;
 
 }
