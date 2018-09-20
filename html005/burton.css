@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-div#wrapper{
+div#wrapper , footer{
     margin: auto;
     width: 1000px;
     background-color:rgb(251, 235, 235);
@@ -10,6 +10,7 @@ div#wrapper{
 }
 body {
     font-family: "Arial", "sans-serif";
+    line-height: 24px;
 }
 nav {
     margin-top: 20px;
@@ -39,14 +40,27 @@ img.visuals{
     width: 453px;
     margin-bottom:10px;
 }
+img.article{
+    margin-top:20px;
+    margin-bottom:20px;
+    width: 303px;
+}
 
 article{
     display:inline-block;
     width: 33%;
-    padding-right: 10px;
+    padding-right: 15px;
+    vertical-align: top;
 }
 
 article:last-child{
     padding-right: 0px;
 
+}
+footer{
+    background-color: rgb(166,166,166);
+
+}
+footer a{
+    color: whitesmoke;
 }
