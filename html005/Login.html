@@ -2,28 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Burton Education</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <style>
+        div.form-group{
+            width: 500px;
+            padding: 20px;
+        }
+        input {
+            float:right;
+            width: 300px;
+        }
+        body{
+            font-family: 'Ubuntu', sans-serif;
+        }
+    </style>
 </head>
 <body>
+<h1>Formuliertje</h1>
 <form action="http://www.voormbo.nl/courses/html5/formtest.php" method="post">
-    <ul>
-        <li>
-            <h2>Burton Education</h2>
-            <span class="verplicht">* verplicht veld</span>
-        </li>
-        <li>
-        <label for="voornaam">Voornaam":</label>
-        <input type="text" name="Voornaam"/>
-        </li>
-
-        <li>
-            <label for="achternaam">Achternaam</label>
-            <input type="text" name achternaam/>
-        </li>
-        <li>
-            <input type="submit" name="knop">
-        </li>
-
-        <ul>
+    <div class="form-group">
+        <label for="voornaam">Voornaam</label>
+        <input type="text" name="voornaam">
+    </div> <div class="form-group">
+        <label for="achternaam">Achternaam</label>
+        <input type="text" name="achternaam">
+    </div>
+   </form>
 </body>
 </html>
